@@ -86,23 +86,26 @@ sub{
 .image_container {
     margin-top: 20px;
     position: relative;
-    box-shadow: 0.5rem 0.5rem lightblue;
+
+    margin-bottom: 50px;
 }
 .image_container img {
-    border-top-right-radius: 30px;
-    border-bottom-left-radius: 30px;
-    height: 500px;
-    width: 500px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    height: 550px;
+    width: auto;
+    box-shadow: 7px 7px lightblue;
+    margin-right: 50px;
 }
 
 #active_students {
     position: absolute;
-    width: 120px;
-    height: 40px;
+    width: 180px;
+    height: 70px;
     border-radius: 10px;
     background: black;
-    top: 50px;
-    left: 180px;
+    top: 100px;
+    right: -10px;
 }
 #buttons{
     display: flex;
@@ -148,11 +151,9 @@ sub{
 }
 #weekly {
     position: absolute;
-    max-width: 50px;
-    height: 50px;
     border-radius: 10px;
     background: transparent;
-    top: 70px;
+    top: 250px;
     left: -35px;
     border-radius: 5px;
 }
