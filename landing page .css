@@ -121,9 +121,9 @@ sub{
     border-top-right-radius: 100px;
     border-bottom-left-radius: 100px;
     height: 600px;
-    width: 700px;
+    width: 800px;
     box-shadow: 20px 20px #dff5ff;
-    margin-right: 50px;
+    object-fit: cover;
 }
 /* #weekly {
     position: absolute;
@@ -204,6 +204,7 @@ sub{
     padding: 20px 150px 20px 150px;
     justify-content: space-between;
     display: flex;
+    margin-top: 100px;
 
 }
 #studentpic{
@@ -214,8 +215,10 @@ sub{
 #studentpic #book{
     border-top-right-radius: 120px;
     border-bottom-left-radius: 120px;
-    object-fit: contain;
+    object-fit:cover;
     box-shadow: 20px 20px #000d89;
+    height: 600px;
+    width: 450px;
 }
 #second-section{
     line-height: normal;
@@ -226,11 +229,83 @@ sub{
     font-weight: bolder;
     font-size: 45px;
 }
-#account{
+#bust{
+    background: #dff5ff;
+    margin-left: 30px;
+    margin-top: 40px;
+    height: 45px;
+    border-radius: 5px;
+}
+.box #account{
     color: #000d83;
-    height: 70vh;
+    font-weight: bolder;
+    font-size: 23px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    background: transparent;
+    opacity: 500%;
+}
+#balance{
+    color: #bcbcc9;
+    font-weight: bold;
+    margin: 15px;
+    background: transparent;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 170px;
+    font-size: 17px;
+    opacity: 200%;
+}
+
+#crelan{
+    display: flex;
+    justify-content: space-between;
+}
+
+#coverage{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 75px;
+}
+.box{ 
+    width: 300px;
+    height: 350px;
+    background: white;
+    box-shadow:1px 1px 10px 1px black;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+}
+.num{
+    position: absolute;
+    width: 40px;
+    height: 120px;
+    background: black;
 
 }
+.boxes{
+    margin-left: 150px;
+    width: 300px;
+    height: 350px;
+    background: white;
+    box-shadow:1px 1px 10px 1px black;
+    border: none;
+}
+.boxes #account{
+    color: #000d83;
+    font-weight: bolder;
+    font-size: 23px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-right: 20px;
+    background: transparent;
+}
+#second-sectionB{
+    margin-top: 175px;
+    justify-content: space-between;
+}
+
 /* #choice{
     font-weight: bold ;
     font-size: 35px;
