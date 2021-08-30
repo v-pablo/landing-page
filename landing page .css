@@ -15,6 +15,7 @@
 .best {
     color: #9be0fe;
     font-weight: bold;
+    size: 50px;
 }
 .method {
     color: #000c82;
@@ -25,7 +26,7 @@
     color: #a6a7bc;
 }
 
-#section2 {
+.section2 {
     margin-left: 150px;
     margin-top: 80px;
 }
@@ -198,14 +199,13 @@ sub{
 #play{
     margin-top: 5px;
 }
-#second{
+.second{
     margin-left: 20px;
     margin-right: 30px;
     padding: 20px 150px 20px 150px;
     justify-content: space-between;
     display: flex;
     margin-top: 100px;
-
 }
 #studentpic{
     margin-top: 70px;
@@ -220,10 +220,10 @@ sub{
     height: 600px;
     width: 450px;
 }
-#second-section{
+.second-section{
     line-height: normal;
 }
-#second-section #start{
+.second-section .start{
     width: 100%;
     color: #000c82;
     font-weight: bolder;
@@ -285,7 +285,7 @@ sub{
 
 }
 .boxes{
-    margin-left: 150px;
+    margin-left: 130px;
     width: 300px;
     height: 350px;
     background: white;
@@ -306,69 +306,89 @@ sub{
     justify-content: space-between;
 }
 
-/* #choice{
-    font-weight: bold ;
-    font-size: 35px;
-    color: #9be0fe;
-} */
-/* #method{
-    color: #010D83;
-    font-weight: bolder;
-    font-size: 60px; 
-    margin-top: -20px;
-    line-height: normal;
-} */
-/* #ease{
-    margin-top: -4px;
-    font-weight: bold ;
-    font-size: 25px;
-    color: #a6a7bc;
-} */
-/* #weekly img{
-    width: auto;
-    height: 250%;
-    border-radius: 10px;
-} */
-/* .logo{
-    position: relative;
-    height: 100px;
-    width: 100px;
-
-}
-header ul{
-    position: relative;
-    display: flex;
-
-}
-.signup li a{
-    text-align: center;
-    background-color: blue;
-    color :white;
-    width: auto;
-    height: auto;
-
-} */
-/* header ul li{
-    list-style: none;
-}
-header ul li a{
-    display: inline-flex;
-    color: blue ;
-    font-weight: 400;
-    margin-left: 40px;
-    text-decoration: none;
-    flex: auto;
-}
-.choice{
-    background-color: #eaf3fa;
-}
-.card-title{
-    color: blue;
-}
-.card-text{
-    color: grey;
-}
-.card{
-    box-shadow: 1px 1px 0.5px grey;
+.section{
+    margin-left: 20px;
+    margin-right: 30px;
+    padding: 20px 150px 20px 150px;
     justify-content: space-between;
-} */
+}
+.start{
+    width: 100%;
+    color: #000c82;
+    font-weight: bolder;
+    font-size: 45px;
+}
+#second{
+    height: 800px;
+    width: 460px;
+}
+#more{
+    display: flex;
+    align-content: space-between;
+    color: #000c82;
+    font-weight: bold;
+    font-size: large ;
+}
+#more #lan{
+    color: pink;
+}
+.our{
+    color: #000d89;
+}
+
+#section3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+#studentpic2 #babe{
+    border-top-right-radius: 120px;
+    border-bottom-left-radius: 120px;
+    object-fit:none;
+    box-shadow: 20px 20px #000d89;
+    height: 650px;
+    width: 783px;
+}
+#shiftbox{
+    display: flex;
+    background-color: #ffff;
+    border-radius: 30px;
+    height: 520px;
+    width: 1250px;
+    margin-left: 100px;
+    align-content: center;
+    justify-content: space-between;
+}
+#shiftbox #hijabi{
+    margin: 50px;
+    background: transparent;
+}
+#shiftbox #hijabi #hijababe{
+    border-radius: 30px;
+}
+#shiftbox #rev2{
+    justify-content: center;
+    background: transparent;
+}
+#shiftbox #quote{
+    color: #9be0fe;
+    font-weight: bolder;
+    font-size: larger;
+    background: transparent;
+}
+#appreciation{
+    color: #a6a7bc;
+    background: transparent;
+}
+#sarah{
+    font-weight: bold;
+    color: #000d89;
+    background: transparent;
+}
+#person{
+    position: relative;
+    align-items: center;
+    color: #a6a7bc;
+    background: transparent;
+}
