@@ -143,16 +143,7 @@ sub{
     width: 300px;
     height: 100px;
 } */
-/* #tick{
-    position: absolute;
-    background: #f79499;
-    width: 50px;
-    height: 50px;
-    bottom: 320px;
-    left: -90px;
-    border-radius: 7px;
-    color: white;
-} */
+
 /* #active_students {
     position: absolute;
     top: 120px;
@@ -603,4 +594,4 @@ sub{
 .checks{
     object-fit: contain;
     height: 50px;
-}
+} 
