@@ -291,6 +291,7 @@ sub{
     background: white;
     box-shadow:1px 1px 10px 1px black;
     border: none;
+    border-radius: 10px;
 }
 .boxes #account{
     color: #000d83;
@@ -488,7 +489,7 @@ sub{
     cursor: pointer;
     height: 30px;
     width: 50px;
-    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+
     color: #ffff;
     text-transform: uppercase;
     background: transparent;
